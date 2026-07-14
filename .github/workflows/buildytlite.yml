@@ -10,7 +10,7 @@ on:
 
       display_name:
         description: "App Name (Optional)"
-        default: "YouTube"
+        default: "YouTube Plus"
         required: true
         type: string
 
@@ -52,7 +52,7 @@ on:
 
       ytabconfig:
         description: "Integrate YTABConfig"
-        default: true
+        default: false
         required: false
         type: boolean
 
@@ -64,7 +64,7 @@ on:
 
       youchoose:
         description: "Integrate YouChooseQuality"
-        default: false
+        default: true
         required: false
         type: boolean
 
